@@ -1,0 +1,23 @@
+{
+    "preguntasFrecuentes": [
+      {
+        "pregunta": "Cuanto tarda en llegar mi pedido?",
+        "respuesta": "Una vez que nuestro almacén termine la preparación de tu pedido, recibirás un correo electrónico de confirmación con tu guía de seguimiento. SneakerPro realizará la entrega en la dirección registrada en la orden de 4(cuatro) a 7 (siete) en Ciudad Autónoma de Buenos Aires y hasta 10 días hábiles en resto del país."
+      },
+      {
+        "pregunta": "Por donde lo envían?",
+        "respuesta": "Los envíos los despachamos a través de Correo Argentino."
+      },
+      {
+        "pregunta": "Puedo realizar cambios?",
+        "respuesta": [
+          "1. El artículo esté nuevo, con etiquetas y con su empaque original.",
+          "2. Se encuentre dentro de los 60 días desde la fecha de recepción del pedido.",
+          "3. Se presente la factura impresa/ electrónica de la compra.",
+          "4. El valor del artículo para cambio sea del mismo o de mayor valor (pagando la diferencia) al de la compra original. Recordá que no hay reembolsos de efectivo en Tienda."
+        ]
+      }
+      
+    ]
+  }
+  

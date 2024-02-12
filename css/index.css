@@ -1,0 +1,143 @@
+/* Productos home*/
+.tarjeta-producto {
+  display: grid;
+  justify-items: center;
+  margin: inherit;
+  padding: 10px;
+  box-shadow: 0px 1px 7px 18px rgb(0 0 0 / 63%);
+  border-radius: 40px;
+}
+
+.tarjeta-producto:hover {
+  
+  transform: translateY(-5px);
+}
+
+.precio {
+  font-weight: 600;
+}
+
+.tarjeta-producto button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #34974d;
+  background-color: #3aa856;
+  transition: all 0.3s;
+}
+
+.tarjeta-producto button .button__text {
+  transform: translateX(30px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.tarjeta-producto button .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #34974d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta-producto button .svg {
+  width: 30px;
+  stroke: #fff;
+}
+
+.tarjeta-producto button:hover {
+  background: #34974d;
+}
+
+.tarjeta-producto button:hover .button__text {
+  color: transparent;
+}
+
+.tarjeta-producto button:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.tarjeta-producto button:active .button__icon {
+  background-color: #2e8644;
+}
+
+.tarjeta-producto button:active {
+  border: 1px solid #2e8644;
+}
+
+
+
+
+.container6 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container6 {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #6a0909;
+}
+
+.form-input {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-item {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+
